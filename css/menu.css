@@ -1,0 +1,424 @@
+/* Configuracion para toda la pagina */
+html {
+     font-family: 'Puritan', sans-serif;
+     font-size: 2vw;
+     color: white;
+}
+
+/* Configuracion para todo el body */
+body {
+     margin: 0%;
+     border: 0%;
+     background-color: #efefef;
+     padding: 4% 0% 0% 0%;
+}
+
+.link {
+     text-decoration: none;
+     font-size: 100%;
+     color: rgb(255, 255, 255);
+     padding: 1em;
+}
+
+/* Configuracion para la barra superior */
+#barraSuperior {
+     background-color: hwb(0 0% 100%);
+     height: 6vw;
+     position: fixed;
+     width: 100%;
+     top: 0%;
+     left: 0%;
+     border-style: solid;
+     border-left-width: 0px;
+     border-top-width: 0px;
+     border-right-width: 0px;
+     border-width: 0vw 0vw 0.3vw 0vw;
+     border-color: #bebebe;
+     padding: 1vw 0vw;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+#logoMenu {
+     padding: 0vw 2vw;
+     width: 5vw;
+     height: 4vw;
+}
+
+#logoWokBarraSuperior {
+     width: 12vw;
+}
+
+.iconoWOK {
+     display: flex;
+     align-items: flex-end;
+     justify-content: center;
+     height: 4vw;
+}
+
+#linksPaginas {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+     align-items: center;
+     border: 5vw;
+     flex-grow: 2;
+}
+
+#comodin {
+     height: 0vw;
+}
+
+#bienvenida {
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 12vw 0vw;
+}
+
+
+#bienvenida div {
+     padding: 5vw 0vw;
+}
+
+.sombra {
+     display: flex;
+     align-items: center;
+     flex-direction: row;
+     justify-content: center;
+     padding: 4vw 0vw;
+     background-color: rgb(0, 0, 0, 0.9);
+}
+
+#bienvenida1 div div {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+}
+
+#bienvenida div div {
+     padding: 0rem;
+     border: 0rem;
+}
+
+#bienvenida div div p {
+     font-size: 5vw;
+     font-weight: bold;
+     margin: 0vw;
+     text-align: center;
+}
+
+#bienvenida div div img {
+     width: 6vw;
+     height: 6vw;
+     padding: 4vw 0.8vw;
+}
+
+#introduccion {
+     background-color: rgb(0, 0, 0);
+}
+
+#introduccion div {
+     padding: 4vw;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+     flex-wrap: wrap;
+}
+
+#introduccion div div img {
+     width: 46vw;
+     height: 28vw;
+}
+
+#introduccion div div {
+     flex: 1;
+     min-width: 250px;
+}
+
+#queEsWok {
+     padding: 0vw;
+     margin: 0vw;
+     padding-right: 0vw;
+     flex: 2;
+}
+
+#queEsWok p {
+     padding: 0vw;
+     margin: 0vw;
+     text-align: justify;
+}
+
+#container {
+     background-color: rgb(255, 255, 255);
+}
+
+#containerMasAlla {
+     padding: 0vw;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     flex-wrap: wrap;
+}
+
+#infoTexto {
+     padding: 2vw 6vw;
+     display: flex;
+     flex-direction: column;
+     flex: 2;
+}
+
+#titulo p {
+     padding: 0vw;
+     margin: 0vw;
+     color: black;
+     font-weight: bold;
+     font-size: 4vw;
+}
+
+#textoBlack p {
+     padding: 0vw;
+     margin: 0vw;
+     color: black;
+     text-align: justify;
+}
+
+#containerMasAlla div {
+     flex: 1;
+     min-width: 200px;
+}
+
+#image img {
+     width: 36vw;
+     height: 48vw;
+     padding-left: 8vw;
+}
+
+#infoTodoWok {
+     padding: 2vw;
+     display: flex;
+     flex-direction: column;
+
+}
+
+#todoWok {
+     background-color: rgb(255, 255, 255);
+     height: 44vw;
+     width: 100%;
+}
+
+#imageTodoWok {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+}
+
+#imageTodoWok img {
+     width: 40vw;
+     height: 26vw;
+     padding: 4vw;
+}
+
+#imageTodoWok div {
+     background-color: red;
+     width: 40vw;
+     height: 6vw;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+
+}
+
+#wokParaLlevar {
+     padding: 2vw;
+     display: flex;
+     flex-direction: column;
+
+}
+
+#todoWok {
+     background-color: rgb(255, 255, 255);
+     height: 44vw;
+     width: 100%;
+}
+
+#imageWokParaLlevar {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+}
+
+#imageWokParaLlevar img {
+     width: 40vw;
+     height: 26vw;
+     padding: 4vw;
+}
+
+#imageWokParaLlevar div {
+     background-color: rgb(0, 0, 0);
+     width: 40vw;
+     height: 6vw;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+
+}
+
+#containerPrincipios {
+     padding: 4vw 0vw 0vw 0vw;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+
+#titulo {
+     text-align: center;
+     padding: 0vw;
+}
+
+#cuadrosPrincipios {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+     padding: 2vw;
+     flex-wrap: wrap;
+}
+
+#cuadrosPrincipios div {
+     padding: 2vw 1vw;
+}
+
+.cuadro {
+     background-color: red;
+     width: 5vw;
+     height: 1vw;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+     flex: 1;
+     min-width: 250px;
+}
+
+#cuadro p {
+     color: black;
+}
+
+#imagePrincipios img {
+     width: 100%;
+     height: 26vw;
+}
+
+#formulario {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     padding: 2vw;
+     flex-wrap: wrap;
+}
+
+.columna {
+     padding: 0vw 4vw 2vw 0vw;
+     width: 33%;
+     flex: 1;
+     min-width: 250px;
+}
+
+.form-box {
+     background-color: #f6b5b5;
+     border: 0.1vw solid #800000;
+     border-radius: .1vw;
+     width: 25vw;
+     height: 2.5vw;
+}
+
+.button-enviar {
+     background-color: rgb(255, 11, 0);
+     margin: .1vw;
+     padding: .2vw;
+     border-style: solid;
+     border-width: 0.2vw;
+     border-color: #0C111A;
+     border-radius: 1.4vw;
+     width: 25vw;
+     color: white;
+     font-size: 100%;
+     cursor: pointer;
+     text-align: center;
+
+}
+
+.button-enviar:hover {
+     box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+     transform: translateY(-2px);
+}
+
+#contenedor-fila {
+     display: flex;
+     flex-direction: row;
+
+}
+
+/*-----------------------------------------------------*/
+/* configuracion de barra inferior*/
+.barraInferior {
+     height: 10vw;
+     background-color: rgb(0, 0, 0);
+     color: black;
+     width: auto;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     border-style: solid;
+     border-left-width: 0vw;
+     border-top-width: 0.18vw;
+     border-right-width: 0vw;
+     border-width: 0%;
+     border-color: #bebebe;
+}
+
+.objetosBarraInferior {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+     align-items: center;
+     border: 4vw;
+     flex-grow: 2;
+}
+
+.redes {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     border: 6vw;
+     flex-grow: 2;
+}
+
+.integrantes {
+     padding: 0vw 6vw;
+}
+
+.integrantes p {
+     font-size: 1.8vw;
+}
+
+#logoWokBarraInferior {
+     width: 15vw;
+}
+
+.redes div {
+     padding: 1vw;
+}
+
+.redes div img {
+     width: 4vw;
+}
