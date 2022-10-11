@@ -9,7 +9,7 @@ html {
 body {
      margin: 0%;
      border: 0%;
-     background-color: #efefef;
+     background-color: #ffffff;
      padding: 4% 0% 0% 0%;
 }
 
@@ -70,10 +70,6 @@ body {
      flex-grow: 2;
 }
 
-#comodin {
-     height: 0vw;
-}
-
 #tituloPagina {
      padding-left: 2vw;
 }
@@ -92,35 +88,44 @@ body {
 }
 
 
-#menu {
+
+
+#wokIzakaya {
      padding: 12vw 0vw 4vw 0vw;
      display: flex;
-     flex-direction: row;
-     justify-content: flex-end;
+     flex-direction: column;
      align-items: center;
+     background-color: rgb(0, 0, 0);
 }
 
-#imagenMenu img {
-     width: 22vw;
-     height: 32vw;
-}
-
-#tituloMenu {
-     background-color: red;
-     height: 10vw;
-     width: 30vw;
-     margin-left: 10vw;
+#textBlanco {
+     padding: 5% 35%;
+     margin: 0vw;
+     color: rgb(255, 255, 255);
+     font-size: 2vw;
      display: flex;
      align-items: center;
 }
 
-#tituloMenu p {
-     font-size: 4vw;
-     font-weight: bold;
-     padding-left: 3vw;
+#textBlanco p {
+     text-align: justify;
 }
 
-#containerPrincipios {
+
+#tituloIzakaya {
+     background-color: red;
+     height: 15vw;
+     width: 40vw;
+     display: flex;
+     justify-content: center;
+}
+
+#tituloIzakaya p {
+     font-size: 5vw;
+     font-weight: bold;
+}
+
+#containerQueEsIzakaya {
      padding: 4vw 0vw 0vw 0vw;
      display: flex;
      flex-direction: column;
@@ -132,155 +137,151 @@ body {
      padding: 0vw;
 }
 
-#cuadrosPrincipios {
+#textoNegro {
+     padding: 5% 35%;
+     margin: 0vw;
+     color: rgb(0, 0, 0);
+     font-size: 1.5vw;
+     display: flex;
+     align-items: center;
+}
+
+#containerQueEsIzakaya {
      display: flex;
      flex-direction: row;
-     justify-content: space-around;
-     align-items: center;
-     padding: 2vw;
-     flex-wrap: wrap;
 }
 
-#cuadrosPrincipios div {
-     padding: 2vw 1vw;
+#tituloQueIzakaya {
+     text-align: left;
+     padding: 4vw 5vw 0vw 5vw;
 }
 
-.cuadro {
-     background-color: red;
-     width: 5vw;
-     height: 1vw;
-     display: flex;
-     flex-direction: row;
-     justify-content: space-around;
-     align-items: center;
-     flex: 1;
-     min-width: 250px;
-}
-
-#cuadro p {
-     color: black;
-}
-
-#imagePrincipios img {
-     width: 100%;
-     height: 26vw;
-}
-
-#titulo p {
+#tituloQueIzakaya p {
      padding: 0vw;
      margin: 0vw;
      color: black;
      font-weight: bold;
-     font-size: 4vw;
+     font-size: 6vw;
 }
 
-#platosRecomendados {
-     display: flex;
-     flex-direction: row;
-     justify-content: space-around;
-     align-items: center;
-     padding: 3vw;
-}
-
-.platoRecomendado img {
-     width: 20vw;
-     height: 26vw;
-}
-
-.platoRecomendado div {
-     padding: 1vw;
-     display: flex;
-     flex-direction: column;
-     justify-content: space-around;
-}
-
-.newAux {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-}
-
-.botonComprar {
-     background-color: red;
-     width: 13vw;
-     height: 1vw;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-}
-
-.botonComprar p {
+#infoTextoIzakaya {
+     padding: 4vw 5vw 0vw 5vw;
+     color: rgb(0, 0, 0);
      font-size: 1.5vw;
 }
 
-#containerComoPedir {
-     padding: 4vw 0vw;
+#aux3 {
+     width: 70%;
+}
+
+#beneficios {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     padding: 2vw 4vw 2vw 2vw;
+}
+
+.beneficio {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+}
+
+.beneficio img {
+     width: 3vw;
+     height: 3vw;
+     padding: 0vw 3vw 0vw 0vw;
+}
+
+#textoNegro2 {
+     margin: 0vw;
+     color: rgb(0, 0, 0);
+     font-size: 1.5vw;
+     display: flex;
+     align-items: center;
+}
+
+#imageMap {
+     width: 100%;
+     height: 100%;
+}
+
+#containersInfoContacto {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+}
+
+#infoContacto {
+     width: 50%;
+     background-color: black;
+     height: 18vw;
+}
+
+#contactos {
+     padding: 2vw;
+}
+
+#contacto {
+     display: flex;
+     flex-direction: row;
+}
+
+.iconosContacto {
+     width: 1.4vw;
+     height: 2vw;
+     margin: 2vw;
+     padding: 0vw .5vw 0vw 0vw;
+}
+
+#horarios {
+     width: 50%;
+     background-color: red;
+     height: 18vw;
+}
+
+#textoBlanco2 {
+     padding-left: 3vw;
+}
+
+
+
+
+#containerFeliz {
+     padding: 0vw;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+}
+
+#infoTexto {
+     padding: 2vw 6vw;
      display: flex;
      flex-direction: column;
 }
 
-#containerTituloRojo {
-     display: flex;
-     justify-content: flex-end;
-     padding-bottom: 3vw;
+#tituloFeliz p {
+     padding: 0vw;
+     margin: 0vw;
+     color: rgb(255, 0, 0);
+     font-weight: bold;
+     font-size: 4vw;
 }
 
-#tituloRojo {
-     background-color: red;
-     display: flex;
-     align-items: center;
-     width: 35vw;
-     height: 8vw;
-}
-
-#tituloRojo p {
+#textoBlackFeliz p {
+     padding: 0vw;
+     margin: 0vw;
+     color: black;
+     text-align: justify;
      font-size: 3.5vw;
-     padding: 2vw;
 }
 
-
-#containerInfoComoPedir {
-     display: flex;
-     justify-content: flex-end;
-     padding-bottom: 3vw;
+#image img {
+     width: 55vw;
+     height: 40vw;
 }
-
-#cajaNegraTextoBlanco {
-     background-color: rgb(0, 0, 0);
-     display: flex;
-     align-items: center;
-     width: 80vw;
-     height: 30vw;
-}
-
-#cajaNegraTextoBlanco {
-     font-size: 2vw;
-     padding: 5vw;
-}
-
-#containerZonasDeCobertura {
-     display: flex;
-     flex-direction: row;
-     justify-content: flex-end;
-     padding: 0;
-}
-
-.newAux2 {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     padding: 28vw 20vw 2vw 20vw;
-     background-image: url('images/domicilios/finDomicilios.jpg');
-     background-repeat: no-repeat;
-     background-size: cover;
-     margin: 0vw 2vw 2vw 4vw;
-}
-
-.botonComprar {
-     padding: 1vw 3vw;
-}
-
-
 
 /*-----------------------------------------------------*/
 /* configuracion de barra inferior*/
