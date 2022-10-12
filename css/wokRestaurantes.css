@@ -1,0 +1,245 @@
+/* Configuracion para toda la pagina */
+html {
+     font-family: 'Puritan', sans-serif;
+     font-size: 2vw;
+     color: white;
+}
+
+/* Configuracion para todo el body */
+body {
+     margin: 0%;
+     border: 0%;
+     background-color: #ffffff;
+     padding: 4% 0% 0% 0%;
+}
+
+.link {
+     text-decoration: none;
+     font-size: 100%;
+     color: rgb(255, 255, 255);
+     padding: 1em;
+}
+
+/* Configuracion para la barra superior */
+#superior {
+     position: fixed;
+}
+
+#barraSuperior {
+     background-color: hwb(0 0% 100%);
+     height: 6vw;
+     position: fixed;
+     width: 100%;
+     top: 0%;
+     left: 0%;
+     border-style: solid;
+     border-left-width: 0px;
+     border-top-width: 0px;
+     border-right-width: 0px;
+     border-width: 0vw 0vw 0.3vw 0vw;
+     border-color: #bebebe;
+     padding: 1vw 0vw;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+#logoMenu {
+     padding: 0vw 2vw;
+     width: 5vw;
+     height: 4vw;
+}
+
+#logoWokBarraSuperior {
+     width: 12vw;
+}
+
+.iconoWOK {
+     display: flex;
+     align-items: flex-end;
+     justify-content: center;
+     height: 4vw;
+}
+
+#linksPaginas {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+     align-items: center;
+     border: 5vw;
+     flex-grow: 2;
+}
+
+.cajitaRoja {
+     padding: 0vw 3vw;
+}
+
+.cajitaRoja p {
+     padding: 1vw 5vw;
+     background-color: red;
+     width: 12vw;
+     text-align: center;
+}
+
+
+#containerTituloWokRest {
+     padding: 0vw;
+     padding-top: 30vw;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+#containerPrincipios {
+     padding: 4vw 0vw 0vw 0vw;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+
+#titulo {
+     text-align: center;
+     padding: 0vw;
+}
+
+#cuadrosPrincipios {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+     padding: 2vw;
+     flex-wrap: wrap;
+}
+
+#cuadrosPrincipios div {
+     padding: 2vw 1vw;
+}
+
+.cuadro {
+     background-color: red;
+     width: 5vw;
+     height: 1vw;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+     flex: 1;
+     min-width: 250px;
+}
+
+#cuadro p {
+     color: black;
+}
+
+#imagePrincipios img {
+     width: 100%;
+     height: 26vw;
+}
+
+#containerRestaurantes {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: center;
+     padding: 3vw 2vw;
+}
+
+.filaRestaurantes {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     align-items: center;
+}
+
+.restaurante {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: center;
+     width: 30%;
+}
+
+.imageRestaurante img {
+     width: 100%;
+     height: 16vw;
+}
+
+.tituloRestaurante {
+     color: black;
+     padding: 0;
+}
+
+.newAux {
+     padding: 0vw 0vw 2vw 0vw;
+}
+
+.containerReserva {
+     width: 100%;
+     height: 50vw;
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.tituloReservaAhora {
+     font-size: 5vw;
+     background-color: red;
+     padding: 2vw 5vw;
+}
+
+/*-----------------------------------------------------*/
+/* configuracion de barra inferior*/
+.barraInferior {
+     height: 10vw;
+     background-color: rgb(0, 0, 0);
+     color: black;
+     width: auto;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     border-style: solid;
+     border-left-width: 0vw;
+     border-top-width: 0.18vw;
+     border-right-width: 0vw;
+     border-width: 0%;
+     border-color: #bebebe;
+}
+
+.objetosBarraInferior {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+     align-items: center;
+     border: 4vw;
+     flex-grow: 2;
+}
+
+.redes {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     border: 6vw;
+     flex-grow: 2;
+}
+
+.integrantes {
+     padding: 0vw 6vw;
+}
+
+.integrantes p {
+     font-size: 1.8vw;
+}
+
+#logoWokBarraInferior {
+     width: 15vw;
+}
+
+.redes div {
+     padding: 1vw;
+}
+
+.redes div img {
+     width: 4vw;
+}

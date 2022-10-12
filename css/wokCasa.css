@@ -1,0 +1,195 @@
+/* Configuracion para toda la pagina */
+html {
+     font-family: 'Puritan', sans-serif;
+     font-size: 2vw;
+     color: white;
+}
+
+/* Configuracion para todo el body */
+body {
+     margin: 0%;
+     border: 0%;
+     background-color: #ffffff;
+     padding: 4% 0% 0% 0%;
+}
+
+.link {
+     text-decoration: none;
+     font-size: 100%;
+     color: rgb(255, 255, 255);
+     padding: 1em;
+}
+
+/* Configuracion para la barra superior */
+#superior {
+     position: fixed;
+}
+
+#barraSuperior {
+     background-color: hwb(0 0% 100%);
+     height: 6vw;
+     position: fixed;
+     width: 100%;
+     top: 0%;
+     left: 0%;
+     border-style: solid;
+     border-left-width: 0px;
+     border-top-width: 0px;
+     border-right-width: 0px;
+     border-width: 0vw 0vw 0.3vw 0vw;
+     border-color: #bebebe;
+     padding: 1vw 0vw;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+#logoMenu {
+     padding: 0vw 2vw;
+     width: 5vw;
+     height: 4vw;
+}
+
+#logoWokBarraSuperior {
+     width: 12vw;
+}
+
+.iconoWOK {
+     display: flex;
+     align-items: flex-end;
+     justify-content: center;
+     height: 4vw;
+}
+
+#linksPaginas {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+     align-items: center;
+     border: 5vw;
+     flex-grow: 2;
+}
+
+#containerWokCasa {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     padding-top: 4vw;
+     height: 28vw;
+}
+
+#containerInfoWokCasa {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     background-color: red;
+     width: 33.3%;
+}
+
+#imageWokCasa {
+     width: 100%;
+     height: 100%;
+}
+
+.tituloWokCasa {
+     font-size: 3vw;
+     font-weight: bold;
+}
+
+#textWokCasa {
+     font-size: 2vw;
+     padding: 0vw 3vw;
+     text-align: center;
+}
+
+.containerBeneficiosWokCasa {
+     padding: 4vw;
+}
+
+#containerAux {
+     padding: 2vw;
+}
+
+.beneficio {
+     background-color: black;
+     height: 30vw;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+}
+
+.imgBeneficio {
+     width: 40vw;
+     height: 30vw;
+}
+
+.infoBeneficio {
+     padding-left: 3vw;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
+#botonCompra {
+     background-color: rgb(255, 0, 0);
+     padding: 0vw 3vw;
+}
+
+
+/*-----------------------------------------------------*/
+/* configuracion de barra inferior*/
+.barraInferior {
+     height: 10vw;
+     background-color: rgb(0, 0, 0);
+     color: black;
+     width: auto;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     border-style: solid;
+     border-left-width: 0vw;
+     border-top-width: 0.18vw;
+     border-right-width: 0vw;
+     border-width: 0%;
+     border-color: #bebebe;
+}
+
+.objetosBarraInferior {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+     align-items: center;
+     border: 4vw;
+     flex-grow: 2;
+}
+
+.redes {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     border: 6vw;
+     flex-grow: 2;
+}
+
+.integrantes {
+     padding: 0vw 6vw;
+}
+
+.integrantes p {
+     font-size: 1.8vw;
+}
+
+#logoWokBarraInferior {
+     width: 15vw;
+}
+
+.redes div {
+     padding: 1vw;
+}
+
+.redes div img {
+     width: 4vw;
+}

@@ -1,0 +1,300 @@
+/* Configuracion para toda la pagina */
+html {
+     font-family: 'Puritan', sans-serif;
+     font-size: 2vw;
+     color: white;
+}
+
+/* Configuracion para todo el body */
+body {
+     margin: 0%;
+     border: 0%;
+     background-color: #ffffff;
+     padding: 4% 0% 0% 0%;
+}
+
+.link {
+     text-decoration: none;
+     font-size: 100%;
+     color: rgb(255, 255, 255);
+     padding: 1em;
+}
+
+/* Configuracion para la barra superior */
+#superior {
+     position: fixed;
+}
+
+#barraSuperior {
+     background-color: hwb(0 0% 100%);
+     height: 6vw;
+     position: fixed;
+     width: 100%;
+     top: 0%;
+     left: 0%;
+     border-style: solid;
+     border-left-width: 0px;
+     border-top-width: 0px;
+     border-right-width: 0px;
+     border-width: 0vw 0vw 0.3vw 0vw;
+     border-color: #bebebe;
+     padding: 1vw 0vw;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+#logoMenu {
+     padding: 0vw 2vw;
+     width: 5vw;
+     height: 4vw;
+}
+
+#logoWokBarraSuperior {
+     width: 12vw;
+}
+
+.iconoWOK {
+     display: flex;
+     align-items: flex-end;
+     justify-content: center;
+     height: 4vw;
+}
+
+#linksPaginas {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+     align-items: center;
+     border: 5vw;
+     flex-grow: 2;
+}
+
+#containerContacto {
+     padding-top: 3.5vw;
+}
+
+#containerContacto div {
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+#tituloContacto {
+     width: 50%;
+     padding: 0% 0% 3vw 30%;
+     text-align: center;
+     font-size: 5vw;
+     text-align: right;
+}
+
+#infoContacto {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     padding: 0% 10%;
+}
+
+.textoNegroContacto p {
+     color: black;
+     width: 70%;
+}
+
+#tituloSiguenos p {
+     color: red;
+     font-weight: bold;
+}
+
+#containerRedesSociales img {
+     width: 14vw;
+     height: 4vw;
+}
+
+
+
+
+
+#tituloRojoPagina {
+     width: 20vw;
+}
+
+#tituloRojoPagina div {
+     background-color: red;
+     height: 1.5vw;
+     padding: 2vw;
+     margin-top: 0.7vw;
+     display: flex;
+     align-items: center;
+}
+
+#tituloRojoPagina p {
+     font-weight: bold;
+     padding-left: 2vw;
+}
+
+#containerHablemos {
+     padding: 0vw;
+     padding-top: 4vw;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+}
+
+#infoTexto {
+     padding: 2vw 6vw;
+     display: flex;
+     flex-direction: column;
+}
+
+#tituloTemas p {
+     padding: 2vw 0vw;
+     margin: 0vw;
+     color: rgb(255, 0, 0);
+     font-weight: bold;
+     font-size: 3.5vw;
+}
+
+#textoNegro p {
+     padding: 0vw;
+     margin: 0vw;
+     color: black;
+     font-size: 2vw;
+     padding-bottom: 2vw;
+}
+
+#image img {
+     width: 45vw;
+     height: 60vw;
+}
+
+.containerMotivos {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.cajitaRoja {
+     padding: 0vw 3vw;
+}
+
+.cajitaRoja p {
+     padding: 1vw 5vw;
+     background-color: red;
+     width: 12vw;
+     text-align: center;
+}
+
+#containerPreguntas {
+     padding: 0vw;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+
+#containerTitulos {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+
+}
+
+#tituloBlanco {
+     text-align: center;
+     padding-bottom: 6vw;
+
+}
+
+#tituloBlanco p {
+     font-weight: bold;
+     font-size: 3vw;
+}
+
+.containerFlechaImage {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+}
+
+.flechaImage img {
+     width: 3vw;
+     height: 3vw;
+     padding-right: 2vw;
+}
+
+#textoPregunta p {
+     padding: 0vw;
+     margin: 0vw;
+     color: black;
+     font-size: 2vw;
+     padding-bottom: 2vw;
+}
+
+.containerPrivacidadItems {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     padding-bottom: 2vw;
+     padding-top: 2vw;
+}
+
+
+#imagePrivacidad {
+     width: 100%;
+     height: 30vw;
+}
+
+/*-----------------------------------------------------*/
+/* configuracion de barra inferior*/
+.barraInferior {
+     height: 10vw;
+     background-color: rgb(0, 0, 0);
+     color: black;
+     width: auto;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     border-style: solid;
+     border-left-width: 0vw;
+     border-top-width: 0.18vw;
+     border-right-width: 0vw;
+     border-width: 0%;
+     border-color: #bebebe;
+}
+
+.objetosBarraInferior {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+     align-items: center;
+     border: 4vw;
+     flex-grow: 2;
+}
+
+.redes {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     border: 6vw;
+     flex-grow: 2;
+}
+
+.integrantes {
+     padding: 0vw 6vw;
+}
+
+.integrantes p {
+     font-size: 1.8vw;
+}
+
+#logoWokBarraInferior {
+     width: 15vw;
+}
+
+.redes div {
+     padding: 1vw;
+}
+
+.redes div img {
+     width: 4vw;
+}
