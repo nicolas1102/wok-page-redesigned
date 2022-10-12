@@ -1,7 +1,7 @@
 /* Configuracion para toda la pagina */
 html {
      font-family: 'Puritan', sans-serif;
-     font-size: 2vw;
+     font-size: 1.5vw;
      color: white;
 }
 
@@ -27,7 +27,7 @@ body {
 
 #barraSuperior {
      background-color: hwb(0 0% 100%);
-     height: 6vw;
+     height: 3vw;
      position: fixed;
      width: 100%;
      top: 0%;
@@ -46,8 +46,8 @@ body {
 
 #logoMenu {
      padding: 0vw 2vw;
-     width: 5vw;
-     height: 4vw;
+     width: 2.5vw;
+     height: 2vw;
 }
 
 #logoWokBarraSuperior {
@@ -186,12 +186,13 @@ body {
      font-size: 5vw;
      background-color: red;
      padding: 2vw 5vw;
+     text-decoration: none;
+     color: rgb(255, 255, 255);
 }
 
-/*-----------------------------------------------------*/
 /* configuracion de barra inferior*/
 .barraInferior {
-     height: 10vw;
+     height: 6vw;
      background-color: rgb(0, 0, 0);
      color: black;
      width: auto;
@@ -226,10 +227,12 @@ body {
 
 .integrantes {
      padding: 0vw 6vw;
+     margin: 0;
 }
 
 .integrantes p {
-     font-size: 1.8vw;
+     font-size: 1.5vw;
+     margin: 0;
 }
 
 #logoWokBarraInferior {

@@ -1,0 +1,337 @@
+/* Configuracion para toda la pagina */
+html {
+  font-family: 'Puritan', sans-serif;
+  font-size: 1.5vw;
+  color: white;
+}
+
+/* Configuracion para todo el body */
+body {
+  margin: 0%;
+  border: 0%;
+  background-color: #ffffff;
+  padding: 4% 0% 0% 0%;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 100%;
+  color: rgb(255, 255, 255);
+  padding: 1em;
+}
+
+/* Configuracion para la barra superior */
+#superior {
+  position: fixed;
+}
+
+#barraSuperior {
+  background-color: hwb(0 0% 100%);
+  height: 3vw;
+  position: fixed;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  border-style: solid;
+  border-left-width: 0px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-width: 0vw 0vw 0.3vw 0vw;
+  border-color: #bebebe;
+  padding: 1vw 0vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logoMenu {
+  padding: 0vw 2vw;
+  width: 2.5vw;
+  height: 2vw;
+}
+
+#logoWokBarraSuperior {
+  width: 12vw;
+}
+
+.iconoWOK {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 4vw;
+}
+
+#linksPaginas {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  border: 5vw;
+  flex-grow: 2;
+}
+
+#tituloPagina {
+  padding-left: 2vw;
+}
+
+#tituloPagina div {
+  background-color: red;
+  height: 1.5vw;
+  padding: 2vw;
+  margin-top: 1.3vw;
+  display: flex;
+  align-items: center;
+}
+
+#tituloPagina p {
+  font-weight: bold;
+}
+
+#containerReserva {
+  padding: 8vw 0vw 8vw 0vw;
+}
+
+#containerReserva div {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#infoReserva {
+  padding: 8vw 0vw;
+}
+
+#tituloReserva {
+  font-size: 3vw;
+  text-align: center;
+  font-weight: bold;
+}
+
+#containerEspacios {
+  padding: 0vw 10% 6vw 10%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#tituloBlack {
+  font-size: 3vw;
+  color: black;
+  font-weight: bold;
+}
+
+.filaEspacios {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.espacio {
+  width: 50%;
+  padding: 1vw;
+}
+.espacio img {
+  width: 100%;
+  height: 15vw;
+}
+
+#containerHacerReserva {
+  /*padding: 0vw 5% 6vw 5%;*/
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.containerAux2 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.calendarioImage {
+  padding: 1vw;
+}
+.calendarioImage img {
+  width: 100%;
+  height: 15vw;
+}
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2vw;
+}
+#containerWidg {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+#parteform {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0vw 2vw;
+}
+#textoNegroMediado {
+  font-size: 2vw;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+#containerBotonRojo {
+  padding: 0vw;
+}
+#botonReservar {
+  background-color: red;
+}
+#botonReservar p {
+  font-size: 2vw;
+  padding: 0vw 1.5vw;
+}
+#texticoNegrito {
+  font-size: 1vw;
+  color: black;
+  text-align: center;
+}
+#BotonListaEspera {
+  background-color: red;
+}
+
+#BotonListaEspera p {
+  font-size: 1.5vw;
+  padding: 0vw 1.5vw;
+}
+#select1 {
+  background-color: #fb8686;
+  border-color: #800000;
+  width: 10vw;
+  height: 2vw;
+}
+
+#contanierRegala {
+  padding: 2vw 0vw;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+#containerImages {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-right: 0vw;
+  padding-left: 3vw;
+  width: 50%;
+}
+
+#image1 {
+  display: flex;
+  align-items: flex-end;
+  height: 30vw;
+  padding: 2vw;
+}
+#image1 img {
+  height: 20vw;
+  width: 16vw;
+}
+#image2 {
+  display: flex;
+  align-items: flex-start;
+  height: 30vw;
+}
+#image2 img {
+  height: 20vw;
+  width: 16vw;
+}
+#BotonFormulario {
+  background-color: red;
+}
+
+#BotonFormulario p {
+  font-size: 1.5vw;
+  padding: 1vw 1.5vw;
+  text-align: center;
+}
+
+#containerInfoFormulario {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#textoNegroMediadoFormulario{
+
+     
+          font-size: 3vw;
+          color: black;
+          font-weight: bold;
+          text-align: center;
+          width: 30vw;
+}
+
+/*-----------------------------------------------------*/
+/* configuracion de barra inferior*/
+/* configuracion de barra inferior*/
+.barraInferior {
+  height: 6vw;
+  background-color: rgb(0, 0, 0);
+  color: black;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-style: solid;
+  border-left-width: 0vw;
+  border-top-width: 0.18vw;
+  border-right-width: 0vw;
+  border-width: 0%;
+  border-color: #bebebe;
+}
+
+.objetosBarraInferior {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  border: 4vw;
+  flex-grow: 2;
+}
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 6vw;
+  flex-grow: 2;
+}
+
+.integrantes {
+  padding: 0vw 6vw;
+  margin: 0;
+}
+
+.integrantes p {
+  font-size: 1.5vw;
+  margin: 0;
+}
+
+#logoWokBarraInferior {
+  width: 15vw;
+}
+
+.redes div {
+  padding: 1vw;
+}
+
+.redes div img {
+  width: 4vw;
+}
